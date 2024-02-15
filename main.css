@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1cm;
+  margin-bottom: 10px;
 }
 form {
     width: 100%;
@@ -14,16 +15,18 @@ form {
     
 }
 form> input{
+  display: block;
+  margin:0 auto;
     background-color:#f5f6f8;
     padding: 3px;
-    margin: 5px;
-    width: 100%;
+    width: 400px;
     border-style: outset 3px;
     border: #cccccc solid 1px;
     border-radius: 0.2cm;
     height: 1.2cm;
 }
 #log_button{
+  text-align: center;
     background-color:#1878f3;
     font-weight: bold;
     font-size: 21px;
@@ -51,12 +54,11 @@ width:10%;
     font-weight:600;
 outline: #c1c2c6 solid 1px;
 color: black;
-width: 80%;
+width: 300px;
 height: 30px;
 }
 #crt_acc:hover{
     background-color: lightgreen;
-    display: none;
 }
 .line{
     width:40%;
@@ -69,4 +71,18 @@ height: 30px;
     margin: 30px;
     display: flex;
     justify-content: center;
+}
+footer{
+  margin-top: 30px;
+  color:#818181;
+}
+#id{
+  display: flex;
+  flex-wrap: wrap;
+}
+.lang_link{
+  float:left;
+  width:48%;
+  color:#586b95;
+  font-size: 8;
 }
